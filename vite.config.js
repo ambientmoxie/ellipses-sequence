@@ -1,6 +1,7 @@
 export default {
   root: "src",
   base: "/projects/ellipses-sequence",
+  server: { host: true },
   build: {
     outDir: "../dist",
     chunkSizeWarningLimit: 1000,
